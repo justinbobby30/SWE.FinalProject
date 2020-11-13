@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="537.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewTimeController">
+   <children>
+
+       <ComboBox layoutX="173.0" layoutY="101.0" prefHeight="25.0" prefWidth="220.0" promptText="Select a Project" />
+       <ComboBox layoutX="173.0" layoutY="244.0" prefHeight="25.0" prefWidth="220.0" promptText="Select a Member" />
+       <ComboBox layoutX="173.0" layoutY="171.5" prefHeight="25.0" prefWidth="220.0" promptText="Select a Phase" />
+       <AnchorPane layoutX="202.0" layoutY="290.0" prefHeight="37.0" prefWidth="162.0">
+           <children>
+               <Label layoutY="10.0" prefHeight="17.0" prefWidth="65.0" text="Total Hours:" />
+               <TextField layoutX="81.0" layoutY="6.0" prefHeight="25.0" prefWidth="65.0" />
+           </children>
+       </AnchorPane>
+       <Button layoutX="166.0" layoutY="338.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="View Hours" />
+      <Button layoutX="290.0" layoutY="338.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Create Report" />
+
+   </children>
+</AnchorPane>

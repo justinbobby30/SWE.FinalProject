@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="190.0" layoutY="46.0" prefHeight="25.0" prefWidth="220.0" />
+      <TextField layoutX="190.0" layoutY="78.0" prefHeight="73.0" prefWidth="220.0" />
+      <TextField layoutX="190.0" layoutY="158.0" prefHeight="25.0" prefWidth="220.0" />
+      <Button layoutX="242.0" layoutY="198.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Add Project" />
+      <ChoiceBox layoutX="190.0" layoutY="242.0" prefHeight="25.0" prefWidth="220.0" />
+      <ChoiceBox layoutX="190.0" layoutY="294.0" prefHeight="25.0" prefWidth="220.0" />
+      <ChoiceBox layoutX="190.0" layoutY="355.0" prefHeight="25.0" prefWidth="220.0" />
+      <ChoiceBox layoutX="190.0" layoutY="415.0" prefHeight="25.0" prefWidth="220.0" />
+      <Label layoutX="101.0" layoutY="50.0" text="Project Name:" />
+      <Label layoutX="73.0" layoutY="78.0" text="Project Description:" />
+      <Label layoutX="98.0" layoutY="162.0" text="Project Owner:" />
+      <Label layoutX="93.0" layoutY="246.0" text="Member Name:" />
+      <Label layoutX="152.0" layoutY="298.0" text="Risk:" />
+      <Label layoutX="116.0" layoutY="359.0" text="Risk Status:" />
+      <Label layoutX="101.0" layoutY="419.0" prefHeight="17.0" prefWidth="75.0" text="Requirement:" />
+      <RadioButton layoutX="240.0" layoutY="455.0" mnemonicParsing="false" text="Non-functional" />
+      <RadioButton layoutX="240.0" layoutY="484.0" mnemonicParsing="false" text="Functional " />
+      <Label layoutX="75.0" layoutY="455.0" text="Requirement Type:" />
+      <Button layoutX="435.0" layoutY="242.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Add Member" />
+      <Button layoutX="435.0" layoutY="355.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Add Risk" />
+      <Button layoutX="435.0" layoutY="415.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Add Requirement" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="54.0" layoutY="100.0" prefHeight="345.0" prefWidth="492.0">
+         <children>
+            
+            <Label prefHeight="49.0" prefWidth="250.0" text="Welcome to the project management system!" />
+            <Label text="Select from the following menu options to get started:" />
+            <Hyperlink text="1. Add Project" />
+            <Hyperlink text="2. Modify Project" />
+            <Hyperlink text="3. Add Time" />
+            <Hyperlink text="4. View Total Hours" />
+         </children></VBox>
+   </children>
+</AnchorPane>

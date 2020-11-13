@@ -1,0 +1,2 @@
+public class ViewTimeController {
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="556.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="112.0" layoutY="6.0" text="Select a project from the drop down list to make modifications" />
+      <ChoiceBox layoutX="168.0" layoutY="47.0" prefHeight="25.0" prefWidth="220.0" />
+      <TextField layoutX="168.0" layoutY="81.0" prefHeight="73.0" prefWidth="220.0" />
+      <TextField layoutX="168.0" layoutY="166.0" prefHeight="25.0" prefWidth="220.0" />
+      <Button layoutX="219.0" layoutY="199.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Update Project" />
+      <ChoiceBox layoutX="168.0" layoutY="269.0" prefHeight="25.0" prefWidth="220.0" />
+      <ChoiceBox layoutX="168.0" layoutY="320.0" prefHeight="25.0" prefWidth="220.0" />
+      <ChoiceBox layoutX="168.0" layoutY="372.0" prefHeight="25.0" prefWidth="220.0" />
+      <ChoiceBox layoutX="168.0" layoutY="420.0" prefHeight="25.0" prefWidth="220.0" />
+      <RadioButton layoutX="227.0" layoutY="467.0" mnemonicParsing="false" text="Functional" />
+      <RadioButton layoutX="227.0" layoutY="492.0" mnemonicParsing="false" text="Non-functional" />
+      <Button layoutX="425.0" layoutY="420.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Add/Update" />
+      <Button layoutX="425.0" layoutY="372.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Add/Change" />
+      <Button layoutX="425.0" layoutY="269.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Add/Remove" />
+      <Label layoutX="79.0" layoutY="51.0" text="Project Name:" />
+      <Label layoutX="51.0" layoutY="81.0" text="Project Description:" />
+      <Label layoutX="78.0" layoutY="170.0" text="Project Owner:" />
+      <Label layoutX="73.0" layoutY="273.0" text="Member Name:" />
+      <Label layoutX="130.0" layoutY="324.0" text="Risk:" />
+      <Label layoutX="94.0" layoutY="376.0" text="Risk Status:" />
+      <Label layoutX="85.0" layoutY="424.0" text="Requirement:" />
+      <Label layoutX="56.0" layoutY="467.0" text="Requirement Type:" />
+   </children>
+</AnchorPane>
